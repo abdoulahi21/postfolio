@@ -64,7 +64,7 @@ export default function Hero() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-r from-primary/20 to-purple-600/20 flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=300&width=300&text=Profile"
+                  src="/image.jpeg?height=300&width=300&text=Profile"
                   alt="Diallo Profile"
                   width={300}
                   height={300}
