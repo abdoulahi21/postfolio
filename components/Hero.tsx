@@ -62,15 +62,18 @@ export default function Hero() {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 rounded-full bg-gradient-to-r from-primary/20 to-purple-600/20 flex items-center justify-center">
-                <Image
-                  src="/image.jpeg?height=300&width=300&text=Profile"
-                  alt="Diallo Profile"
-                  width={300}
-                  height={300}
-                  className="circle object-cover"
-                />
-              </div>
+<div className="w-80 h-80 rounded-full bg-gradient-to-r from-primary/20 to-purple-600/20 p-2 shadow-xl flex items-center justify-center">
+  <div className="w-full h-full rounded-full overflow-hidden">
+    <Image
+      src="/image.jpeg"
+      alt="Diallo Profile"
+      width={300}
+      height={300}
+      className=" object-cover rounded-full"
+    />
+  </div>
+</div>
+
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full animate-pulse"></div>
               <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-purple-600/10 rounded-full animate-pulse delay-1000"></div>
             </div>
