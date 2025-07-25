@@ -68,7 +68,7 @@ export default function Hero() {
                   alt="Diallo Profile"
                   width={300}
                   height={300}
-                  className="rounded-full object-cover"
+                  className="circle object-cover"
                 />
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full animate-pulse"></div>
